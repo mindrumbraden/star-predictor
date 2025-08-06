@@ -1,0 +1,2 @@
+# star-predictor
+Classify stars
