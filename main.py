@@ -154,20 +154,10 @@ print(f"Class: {int(y_test.iloc[false_index].iloc[0])}")
 
 #%%
 
-"""
-It appears that the data point is wrong. Having a Luminosity and Radius of
-0 seems strange, but a subject matter expert would need to verify.
-At the very least, this is the only data point with such values.
-A min/max/mean/median analysis should be done. Probably should be done
-to begin with.
-"""
+# Print tree
+sklearn.tree.plot_tree(model, feature_names=x_train.columns)
 
-
-
-
-
-
-
+#%%
 
 
 
